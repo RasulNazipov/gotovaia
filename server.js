@@ -1,9 +1,9 @@
-// берём Express из папки node_modules
+// берём Express
 var express = require('express');
 
 // создаём Express-приложение
 var app = express();
-// создаём маршрут
+// создаём маршрут для главной страницы
 // http://localhost:8080/
 app.use(express.static(__dirname + '/'));
 
